@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Simple hello world endpoint with Bun HTTP server",
   "scripts": {
+    "build": "bun build server.ts --outdir ./dist --target bun",
     "start": "bun run server.ts"
   },
   "type": "module",
